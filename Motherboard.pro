@@ -1,4 +1,4 @@
-update=Wed 08 Nov 2017 10:24:09 PM EST
+update=Sat 18 Nov 2017 05:22:30 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../KiCadLibraries2018
@@ -62,3 +60,5 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=TuftsRacing2018
+[general]
+version=1
