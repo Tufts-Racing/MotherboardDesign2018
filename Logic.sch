@@ -398,7 +398,7 @@ SEVCON_FWD_12V_H
 Text HLabel 7850 1850 2    60   Output ~ 0
 SEVCON_REV_12V_H
 Text HLabel 5400 3600 2    60   Output ~ 0
-CONTACT_REQ_12V_H
+CONTACT_REQ_5V_H
 Text HLabel 5250 1800 2    60   Output ~ 0
 IMD_FLT_5V_L
 Text HLabel 5250 1900 2    60   Output ~ 0
