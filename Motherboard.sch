@@ -153,12 +153,12 @@ $EndComp
 $Comp
 L Fuse F2
 U 1 1 5A030C01
-P 6750 1000
-F 0 "F2" V 6830 1000 50  0000 C CNN
-F 1 "BMS_FUSE" V 6675 1000 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:BladeFuse-Mini_Keystone_3568" V 6680 1000 50  0001 C CNN
-F 3 "" H 6750 1000 50  0001 C CNN
-	1    6750 1000
+P 6400 1250
+F 0 "F2" V 6480 1250 50  0000 C CNN
+F 1 "BMS_FUSE" V 6325 1250 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:BladeFuse-Mini_Keystone_3568" V 6330 1250 50  0001 C CNN
+F 3 "" H 6400 1250 50  0001 C CNN
+	1    6400 1250
 	0    1    1    0   
 $EndComp
 Text Label 6700 5600 0    60   ~ 0
@@ -185,7 +185,7 @@ Text Label 1550 5250 2    60   ~ 0
 START_INPUT
 Text Label 9850 3550 2    60   ~ 0
 IMD_FLT
-Text Label 7500 1400 2    60   ~ 0
+Text Label 8150 2100 2    60   ~ 0
 BMS_FLT
 Text Label 9850 5550 2    60   ~ 0
 TSMS
@@ -329,11 +329,11 @@ Text Notes 10500 4550 2    60   ~ 0
 rtds
 Text Label 9850 4750 2    60   ~ 0
 FAN-
-Text Label 7500 1100 2    60   ~ 0
+Text Label 8150 1400 2    60   ~ 0
 CONTACT_REQ
-Text Label 7500 1200 2    60   ~ 0
+Text Label 6400 2550 2    60   ~ 0
 FAN_PWM
-Text Label 7500 1300 2    60   ~ 0
+Text Label 8150 2200 2    60   ~ 0
 SOC
 Text Label 7950 3050 2    60   ~ 0
 K1
@@ -349,19 +349,6 @@ Text Notes 10700 5150 2    60   ~ 0
 gp_pwr_out
 Text Notes 10700 4750 2    60   ~ 0
 battery_fans
-Text Notes 7800 1250 2    60   ~ 0
-BMS
-$Comp
-L GND #PWR09
-U 1 1 5A0580F9
-P 7350 1850
-F 0 "#PWR09" H 7350 1600 50  0001 C CNN
-F 1 "GND" H 7350 1700 50  0000 C CNN
-F 2 "" H 7350 1850 50  0001 C CNN
-F 3 "" H 7350 1850 50  0001 C CNN
-	1    7350 1850
-	1    0    0    -1  
-$EndComp
 Text Label 9850 2650 2    60   ~ 0
 K1
 Text Label 9850 2750 2    60   ~ 0
@@ -371,25 +358,14 @@ K3
 Text Notes 10200 2800 0    60   ~ 0
 batt_relays-
 $Comp
-L R R3
-U 1 1 5A059781
-P 6450 1200
-F 0 "R3" V 6530 1200 50  0000 C CNN
-F 1 "10k" V 6450 1200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6380 1200 50  0001 C CNN
-F 3 "" H 6450 1200 50  0001 C CNN
-	1    6450 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L +12V #PWR010
 U 1 1 5A059A94
-P 6350 1000
-F 0 "#PWR010" H 6350 850 50  0001 C CNN
-F 1 "+12V" H 6350 1140 50  0000 C CNN
-F 2 "" H 6350 1000 50  0001 C CNN
-F 3 "" H 6350 1000 50  0001 C CNN
-	1    6350 1000
+P 6000 1250
+F 0 "#PWR010" H 6000 1100 50  0001 C CNN
+F 1 "+12V" H 6000 1390 50  0000 C CNN
+F 2 "" H 6000 1250 50  0001 C CNN
+F 3 "" H 6000 1250 50  0001 C CNN
+	1    6000 1250
 	1    0    0    -1  
 $EndComp
 Text Label 4000 4400 0    60   ~ 0
@@ -564,7 +540,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 3450 8900 3450
 Wire Wire Line
-	6900 1000 7500 1000
+	6550 1250 7150 1250
 Wire Wire Line
 	9450 3450 9850 3450
 Wire Wire Line
@@ -588,20 +564,9 @@ Wire Wire Line
 Wire Wire Line
 	8950 1350 9850 1350
 Wire Wire Line
-	7500 1800 7350 1800
-Wire Wire Line
-	7350 1800 7350 1850
-Wire Wire Line
-	6450 1400 7500 1400
-Wire Wire Line
-	6450 1400 6450 1350
-Wire Wire Line
 	9850 1750 9850 1750
 Wire Wire Line
-	6350 1000 6600 1000
-Wire Wire Line
-	6450 1000 6450 1050
-Connection ~ 6450 1000
+	6000 1250 6250 1250
 Wire Wire Line
 	6250 4300 6400 4300
 Wire Wire Line
@@ -731,13 +696,13 @@ Wire Notes Line
 $Comp
 L Conn_01x16_Male J1
 U 1 1 5A18A953
-P 7950 1700
-F 0 "J1" H 7950 2500 50  0000 C CNN
-F 1 "Conn_01x16_Male" H 7950 800 50  0000 C CNN
-F 2 "" H 7950 1700 50  0001 C CNN
-F 3 "" H 7950 1700 50  0001 C CNN
-	1    7950 1700
-	1    0    0    -1  
+P 8350 1700
+F 0 "J1" H 8350 2500 50  0000 C CNN
+F 1 "Conn_01x16_Male" H 8350 800 50  0000 C CNN
+F 2 "" H 8350 1700 50  0001 C CNN
+F 3 "" H 8350 1700 50  0001 C CNN
+	1    8350 1700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Conn_01x04_Male J2
@@ -856,4 +821,62 @@ Wire Wire Line
 	9150 950  8900 950 
 Wire Wire Line
 	9450 950  9850 950 
+$Comp
+L GND #PWR?
+U 1 1 5A1EF9E0
+P 8150 1000
+F 0 "#PWR?" H 8150 750 50  0001 C CNN
+F 1 "GND" H 8150 850 50  0000 C CNN
+F 2 "" H 8150 1000 50  0001 C CNN
+F 3 "" H 8150 1000 50  0001 C CNN
+	1    8150 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A1EFAC0
+P 8150 1800
+F 0 "#PWR?" H 8150 1550 50  0001 C CNN
+F 1 "GND" H 8150 1650 50  0000 C CNN
+F 2 "" H 8150 1800 50  0001 C CNN
+F 3 "" H 8150 1800 50  0001 C CNN
+	1    8150 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 1200 7700 1200
+Wire Wire Line
+	8150 1300 7700 1300
+Text Notes 7150 1200 0    60   ~ 0
++12V discharging
+Text Notes 7200 1300 0    60   ~ 0
++12V charging
+Text Notes 7600 1500 0    60   ~ 0
+src?
+$Comp
+L Conn_01x05_Male J?
+U 1 1 5A1F5EC6
+P 6600 2450
+F 0 "J?" H 6600 2750 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 6600 2150 50  0000 C CNN
+F 2 "" H 6600 2450 50  0001 C CNN
+F 3 "" H 6600 2450 50  0001 C CNN
+	1    6600 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A1F6F20
+P 6400 2250
+F 0 "#PWR?" H 6400 2000 50  0001 C CNN
+F 1 "GND" H 6400 2100 50  0000 C CNN
+F 2 "" H 6400 2250 50  0001 C CNN
+F 3 "" H 6400 2250 50  0001 C CNN
+	1    6400 2250
+	0    1    1    0   
+$EndComp
+NoConn ~ 6400 2350
+NoConn ~ 6400 2450
+NoConn ~ 6400 2650
+NoConn ~ 7950 2950
 $EndSCHEMATC

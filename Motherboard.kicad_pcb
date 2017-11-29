@@ -1,8 +1,8 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
 
   (general
-    (links 0)
-    (no_connects 132)
+    (links 143)
+    (no_connects 138)
     (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
@@ -271,6 +271,15 @@
     (add_net "Net-(U5-Pad14)")
     (add_net "Net-(U5-Pad15)")
     (add_net VCC)
+  )
+
+  (net_class Signal ""
+    (clearance 0.2)
+    (trace_width 0.5)
+    (via_dia 0.5)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5A1955A2)
