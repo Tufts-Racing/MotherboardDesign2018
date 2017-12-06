@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -326,4 +326,6 @@ Text HLabel 3650 2800 0    60   Input ~ 0
 IMD_RST-
 Text HLabel 3250 3000 0    60   Input ~ 0
 IMD_RST+
+Text Notes 3450 2050 0    60   ~ 0
+5A
 $EndSCHEMATC
